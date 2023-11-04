@@ -32,7 +32,7 @@ void setup(){
 noStroke();
 }
 void draw(){
-  background(0,10);
+  background(0,0,0);
   for(int i=0;i<stars.length;i++){
     stars[i].show();
     stars[i].move();
